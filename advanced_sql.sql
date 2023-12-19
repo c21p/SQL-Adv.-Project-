@@ -1,6 +1,3 @@
--- Advance SQL
--- By Chinmaya Pradhan
-
 
 -- 1. Create an ER diagram or draw a schema for the given database.
 select Database in mysql workbench-> select reverse engineer-> Select the Database whose ER diagram is to be displayed-> continue-> continue 
