@@ -1,8 +1,10 @@
--- Assignment Advance SQL
--- By Chinmaya Pradhan(DS 29A)
+-- Advance SQL
+-- By Chinmaya Pradhan
 
 
 -- 1. Create an ER diagram or draw a schema for the given database.
+select Database in mysql workbench-> select reverse engineer-> Select the Database whose ER diagram is to be displayed-> continue-> continue 
+ (until the ER diag is displayed)
 
 -- 2.We want to reward the user who has been around the longest, Find the 5 oldest users.
 select username from users 
@@ -67,6 +69,11 @@ with photo_count as
 inner join users u on p.user_id=u.id
 group by user_id
 order by 2 desc)
+
+
+
+
+ 
 select username, photos_posted from photo_count 
 where photos_posted between 3 and 5
 limit 30;
